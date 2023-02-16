@@ -20,12 +20,25 @@ function App() {
 
         <label>Tip Amount</label>
         <input 
-          type="email"
+          type="text"
           placeholder='0.00'
           value={email}
           onChange={(e) => setEmail(e.target.value )}
         />
       </form>
+      <div className='summary'>
+        <div className='seperate'>
+          <label># of people</label>
+          <div className='split-control'>
+            <button>-</button>
+            <button>+</button>
+          </div>
+        </div>
+        <div className='result'>
+          <label>Split Total</label>
+          <span>Test</span>
+        </div>
+      </div>
 
     </div>
     
