@@ -19,3 +19,18 @@ input[type="text"]{
   color: #fff;
   font-size: 3.2rem;
 }
+
+.summary{
+  display: flex;
+  justify-content: space-between;
+  background: #1B3A4B;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.seperate button{
+  /* border-radius: ; */
+  border: 0;
+  width: 20px;
+  height: 20px;
+}
