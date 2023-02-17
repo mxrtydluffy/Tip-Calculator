@@ -31,12 +31,13 @@ function App() {
           <label># of people</label>
           <div className='split-control'>
             <button>-</button>
+            <span>1</span>
             <button>+</button>
           </div>
         </div>
         <div className='result'>
           <label>Split Total</label>
-          <span>Test</span>
+          <span>100.00</span>
         </div>
       </div>
 
