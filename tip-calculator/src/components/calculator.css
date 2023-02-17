@@ -1,0 +1,68 @@
+body{
+    background: #4D194D;
+    color: #fff;
+    padding: 365px;
+  }
+  
+  label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1rem;
+    padding: .5rem 0;
+    /* Not entirely white */
+    color: rgba(255, 255, 255, .75);
+  }
+  
+  input[type="text"]{
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 3.2rem;
+  }
+  
+  .summary{
+    display: flex;
+    justify-content: space-between;
+    background: #1B3A4B;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+  }
+  
+  .summary label{
+    line-height: 2rem;
+  }
+  
+  .seperate button{
+    border-radius: 9999999px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #006466;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* + & - */
+  button{
+    font-size: 1.25rem;
+  }
+  
+  .split-control span{
+    display: block;
+    padding: 0 10px;
+    font-size: 2.5rem;
+  }
+  
+  .split-control{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    /* justify-items: center; */
+  }
+  
+  .result span{
+    font-size: 2.5rem;
+  }
